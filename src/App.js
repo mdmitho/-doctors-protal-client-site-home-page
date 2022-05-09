@@ -8,7 +8,7 @@ import Login from './Pages/Login/Login';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-white">
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />

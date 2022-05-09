@@ -1,5 +1,6 @@
 import React from 'react';
 import chair from '../../assets/images/chair.png'
+import PrimatyButton from '../Shared/PrimatyButton';
 
 const Banner = () => {
     return (
@@ -12,9 +13,7 @@ const Banner = () => {
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
               exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
             </p>
-            <button class="btn btn-primary border-0 font-bold bg-gradient-to-r from-cyan-500 to-blue-500">
-              Get Started
-            </button>
+           <PrimatyButton>get started</PrimatyButton>
           </div>
         </div>
       </div>
